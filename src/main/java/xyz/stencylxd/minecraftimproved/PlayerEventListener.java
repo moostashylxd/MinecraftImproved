@@ -13,8 +13,11 @@ public class PlayerEventListener implements Listener {
     @EventHandler
     public void onPlayerLogin(PlayerLoginEvent e) {
         e.allow();
-        if ((int)(Math.random() % 10) == 0)
-            Events.levitation(e.getPlayer());
+        // Levitation event calculation
+        // if ((int)(Math.random() % 10) == 0)
+            // Events.levitation(e.getPlayer());
+
+        
     }
 
     @EventHandler
@@ -27,5 +30,6 @@ public class PlayerEventListener implements Listener {
     
     @EventHandler
     public void onInteract(PlayerInteractEvent event) {
+
     }
 }
