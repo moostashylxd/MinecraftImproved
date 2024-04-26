@@ -1,5 +1,5 @@
 name: MinecraftImproved
 version: '${project.version}'
-main: xyz.stencylxd.minecraftimproved.MinecraftImproved
+main: net.theawesomeinter.minecraftimproved.MinecraftImproved
 api-version: '1.20'
 
